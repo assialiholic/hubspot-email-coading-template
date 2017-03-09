@@ -1,0 +1,50 @@
+//HubL Include
+table(width="#{contWidthValue}" align="center" valign="top" border="0" cellpadding="0" cellspacing="0")
+  tr
+    td(align="left" style="#{text}")
+      a(href="{{ company_domain }}")
+        img(src="http://cdn2.hubspot.net/hubfs/2179333/asset/img/common/small-logo.png" style="max-width:160px; max-height:29px; border-width:0px;border:0px;" width="160" alt="mcframe")
+  tr!=contSpace2
+  tr
+    td(align="left" style="#{text2}")
+      | {{contact.company}}
+      br
+      | {{contact.lastname}} 様
++spacer({ width: '620', height: 30 })
+table(width="#{contWidthValue}" align="center" valign="top" border="0" cellpadding="0" cellspacing="0")
+  tr
+    td(width="#{contWidthValue}" align="left" style="#{text2}")
+      |この度は、「ITR White Paper 2015」のお申し込み、ありがとうございました。
+      br
+      |ダウンロードは下記リンクよりお願い致します。
+  tr!=contSpace2
+  tr
+    td(width="#{contWidthValue}" align="center" style="#{text2}")
+      |{{ cta('38e62d15-b823-47e7-9346-f04f7f81542c') }}
+  tr
+    td(width="#{contWidthValue}" align="center" style="#{text2}")
+      a(href="#" target="_blank")
+        |「ITR White Paper 2015」のダウンロードはこちらから。
+  tr!=contSpace
+  tr!=contSpace
+  tr
+    td(width="#{contWidthValue}" align="left" style="#{text2}")
+      |その他にも、お得な情報やeBookをご用意しております。
+      br
+      |●
+      a(href="#" target="_blank")
+        |『◯◯◯◯◯◯◯◯』eBook
+      br
+      |●
+      a(href="#" target="_blank")
+        |『△△△△△△△△△△』eBook
+  tr!=contSpace
+  tr!=contSpace
+  tr
+    td(width="#{contWidthValue}" align="left" style="#{text2}")
+      |●●●に関するご相談がありましたら、<a href="https://regist.mcframe.com/public/application/add/40?_ga=1.226553309.170387424.1459472731" target="_blank">お問い合わせフォーム</a>よりご連絡ください。
+  tr!=contSpace
+  tr
+    td(width="#{contWidthValue}" align="left" style="#{text2}")
+      |今後とも{{ company_name }}並びに「MCFrame」をよろしくお願い申し上げます。
+//HubL Include
